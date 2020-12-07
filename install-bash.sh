@@ -23,7 +23,6 @@ git clone https://github.com/nahamsec/recon_profile.git
 cd recon_profile
 cat .bash_profile >> ~/.bash_profile
 source ~/.bash_profile
-cd ~/tools/
 echo "done"
 
 
