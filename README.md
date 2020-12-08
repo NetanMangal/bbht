@@ -31,3 +31,6 @@ https://github.com/nahamsec/recon_profile
 - cd bbht
 - chmod +x install.sh
 - ./install.sh
+
+
+Credits goes to https://github.com/nahamsec for making this script. I have just made modifications as per my requirements.
