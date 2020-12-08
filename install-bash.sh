@@ -185,6 +185,10 @@ sudo gem install bundler && bundle install --without test
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+echo -e "\e[1;34m Resourcing bash_profile \e[0m"
+sleep 1
+source ~/.bash_profile
+sleep 2
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\n\e[1;31m Done! All tools are set up in ~/tools \e[0m"
 ls -la
