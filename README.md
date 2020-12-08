@@ -25,6 +25,13 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
 This script also grabs the aliases created and published here:
 https://github.com/NetanMangal/recon_profile
 
+# Making user
+- sudo su
+- adduser netan
+- usermod -aG sudo netan
+- exit
+- su netan
+
 
 # Installing
 - git clone https://github.com/NetanMangal/bbht.git
