@@ -170,7 +170,7 @@ echo -e "\e[1;31m done \e[0m"
 
 echo -e "\e[1;31m downloading Seclists \e[0m"
 cd ~/tools/
-git clone https://github.com/danielmiessler/SecLists.git
+git clone --depth 1 https://github.com/danielmiessler/SecLists.git
 cd ~/tools/SecLists/Discovery/DNS/
 ##THIS FILE BREAKS MASSDNS AND NEEDS TO BE CLEANED
 cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
