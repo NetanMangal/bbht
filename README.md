@@ -23,11 +23,11 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
 - Seclists collection
 
 This script also grabs the aliases created and published here:
-https://github.com/nahamsec/recon_profile
+https://github.com/NetanMangal/recon_profile
 
 
 # Installing
-- git clone https://github.com/nahamsec/bbht.git
+- git clone https://github.com/NetanMangal/bbht.git
 - cd bbht
 - chmod +x install.sh
 - ./install.sh
