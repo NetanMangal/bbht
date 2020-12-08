@@ -19,8 +19,8 @@ sudo apt-get install -y rename
 sudo apt-get install -y xargs
 
 echo "installing bash_profile aliases from recon_profile"
-git clone https://github.com/nahamsec/recon_profile.git
-cd recon_profile
+git clone https://github.com/NetanMangal/recon_profile.git
+cd recon_profiles
 cat .bash_profile >> ~/.bash_profile
 source ~/.bash_profile
 echo "done"
@@ -102,13 +102,6 @@ cd ~/tools/
 echo "done"
 
 
-echo "installing wpscan"
-git clone https://github.com/wpscanteam/wpscan.git
-cd wpscan*
-sudo gem install bundler && bundle install --without test
-cd ~/tools/
-echo "done"
-
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
@@ -184,6 +177,13 @@ cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
 cd ~/tools/
 echo "done"
 
+
+echo "installing wpscan"
+git clone https://github.com/wpscanteam/wpscan.git
+cd wpscan*
+sudo gem install bundler && bundle install --without test
+cd ~/tools/
+echo "done"
 
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
