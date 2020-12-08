@@ -62,7 +62,7 @@ fi
 
 #Don't forget to set up AWS credentials!
 echo -e "\e[1;31m Don't forget to set up AWS credentials! \e[0m"
-apt install -y awscli
+sudo apt-get install -y awscli
 echo -e "\e[1;31m Don't forget to set up AWS credentials! \e[0m"
 
 
