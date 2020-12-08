@@ -20,7 +20,7 @@ sudo apt-get install -y xargs
 
 echo -e "\e[1;31m installing bash_profile aliases from recon_profile \e[0m"
 git clone https://github.com/NetanMangal/recon_profile.git
-cd recon_profiles
+cd recon_profile
 cat .bash_profile >> ~/.bash_profile
 source ~/.bash_profile
 echo -e "\e[1;31m done \e[0m"
