@@ -28,8 +28,8 @@ echo -e "\e[1;31m done \e[0m"
 #install go
 if [[ -z "$GOPATH" ]]; then
 	echo -e "\e[1;31m Installing Golang \e[0m"
-	wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
-	sudo tar -xvf go1.13.4.linux-amd64.tar.gz
+	wget https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz
+	sudo tar -xvf go1.15.6.linux-amd64.tar.gz
 	sudo mv go /usr/local
 	export GOROOT=/usr/local/go
 	export GOPATH=$HOME/go
@@ -151,7 +151,7 @@ echo -e "\e[1;31m done \e[0m"
 
 #install Nuclei
 echo -e "\e[1;31m installing Nuclei \e[0m"
-go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+go get -u github.com/projectdiscovery/nuclei/v2/cmd/nuclei
 nuclei -update-templates
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
