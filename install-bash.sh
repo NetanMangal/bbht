@@ -39,9 +39,7 @@ if [[ -z "$GOPATH" ]]; then
 	source ~/.bash_profile
 	sleep 1
 else
-	echo -e "\e[1;31m Please install go and rerun this script \e[0m"
-	echo -e "\e[1;31m Aborting installation... \e[0m"
-	exit 1
+	echo -e "\e[1;31m Go already installed \e[0m"
 fi
 
 #Don't forget to set up AWS credentials!
