@@ -62,6 +62,11 @@ echo -e "\e[1;31m Installing Chromium \e[0m"
 sudo snap install chromium
 echo -e "\e[1;31m done \e[0m"
 
+#install nmap
+echo -e "\e[1;31m installing nmap \e[0m"
+sudo apt-get install -y nmap
+echo -e "\e[1;31m done \e[0m"
+
 #install JSParser
 echo -e "\e[1;31m installing JSParser \e[0m"
 git clone https://github.com/nahamsec/JSParser.git
@@ -120,11 +125,6 @@ git clone https://github.com/nahamsec/lazyrecon.git
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
-#install nmap
-echo -e "\e[1;31m installing nmap \e[0m"
-sudo apt-get install -y nmap
-echo -e "\e[1;31m done \e[0m"
-
 #install massdns
 echo -e "\e[1;31m installing massdns \e[0m"
 git clone https://github.com/blechschmidt/massdns.git
@@ -158,31 +158,6 @@ mv nuclei /usr/local/bin/
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
-#install altdns
-echo -e "\e[1;31m installing altdns \e[0m"
-pip install py-altdns
-echo -e "\e[1;31m done \e[0m"
-
-#install httprobe
-echo -e "\e[1;31m installing httprobe \e[0m"
-go get -u github.com/tomnomnom/httprobe
-echo -e "\e[1;31m done \e[0m"
-
-#install unfurl
-echo -e "\e[1;31m installing unfurl \e[0m"
-go get -u github.com/tomnomnom/unfurl
-echo -e "\e[1;31m done \e[0m"
-
-#install waybackurls
-echo -e "\e[1;31m installing waybackurls \e[0m"
-go get github.com/tomnomnom/waybackurls
-echo -e "\e[1;31m done \e[0m"
-
-#install ffuf
-echo -e "\e[1;31m installing ffuf \e[0m"
-go get -u github.com/ffuf/ffuf
-echo -e "\e[1;31m done \e[0m"
-
 #install crtndstry
 echo -e "\e[1;31m installing crtndstry \e[0m"
 git clone https://github.com/nahamsec/crtndstry.git
@@ -211,6 +186,31 @@ echo -e "\e[1;31m done \e[0m"
 #install relative-url-extractor
 echo -e "\e[1;31m installing relative-url-extractor \e[0m"
 git clone https://github.com/jobertabma/relative-url-extractor.git
+echo -e "\e[1;31m done \e[0m"
+
+#install altdns
+echo -e "\e[1;31m installing altdns \e[0m"
+pip install py-altdns
+echo -e "\e[1;31m done \e[0m"
+
+#install httprobe
+echo -e "\e[1;31m installing httprobe \e[0m"
+go get -u github.com/tomnomnom/httprobe
+echo -e "\e[1;31m done \e[0m"
+
+#install unfurl
+echo -e "\e[1;31m installing unfurl \e[0m"
+go get -u github.com/tomnomnom/unfurl
+echo -e "\e[1;31m done \e[0m"
+
+#install waybackurls
+echo -e "\e[1;31m installing waybackurls \e[0m"
+go get github.com/tomnomnom/waybackurls
+echo -e "\e[1;31m done \e[0m"
+
+#install ffuf
+echo -e "\e[1;31m installing ffuf \e[0m"
+go get -u github.com/ffuf/ffuf
 echo -e "\e[1;31m done \e[0m"
 
 #install wpscan
