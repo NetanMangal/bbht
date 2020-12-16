@@ -143,6 +143,10 @@ mv nuclei /usr/local/bin/
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+echo -e "\e[1;31m installing altdns \e[0m"
+pip install py-altdns
+echo -e "\e[1;31m done \e[0m"
+
 echo -e "\e[1;31m installing httprobe \e[0m"
 go get -u github.com/tomnomnom/httprobe
 echo -e "\e[1;31m done \e[0m"
