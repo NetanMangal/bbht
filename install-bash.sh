@@ -155,6 +155,10 @@ cat dns-Jhaddix.txt | head -n -14 >clean-jhaddix-dns.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+echo -e "\e[1;31m installing venom26/recon \e[0m"
+git clone https://github.com/venom26/recon.git
+echo -e "\e[1;31m done \e[0m"
+
 echo -e "\e[1;31m installing wpscan \e[0m"
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan*
