@@ -173,9 +173,9 @@ cat dns-Jhaddix.txt | head -n -14 >clean-jhaddix-dns.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
-#install venom26/recon
-echo -e "\e[1;31m installing venom26/recon \e[0m"
-git clone https://github.com/venom26/recon.git
+#install NetanMangal/recon
+echo -e "\e[1;31m installing NetanMangal/recon \e[0m"
+git clone https://github.com/NetanMangal/recon.git
 echo -e "\e[1;31m done \e[0m"
 
 #install smuggler.py
