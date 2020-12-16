@@ -190,7 +190,9 @@ echo -e "\e[1;31m done \e[0m"
 
 #install altdns
 echo -e "\e[1;31m installing altdns \e[0m"
+cd ~/tools/
 pip install py-altdns
+cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
 #install httprobe
@@ -205,7 +207,7 @@ echo -e "\e[1;31m done \e[0m"
 
 #install waybackurls
 echo -e "\e[1;31m installing waybackurls \e[0m"
-go get github.com/tomnomnom/waybackurls
+go get -u github.com/tomnomnom/waybackurls
 echo -e "\e[1;31m done \e[0m"
 
 #install ffuf
