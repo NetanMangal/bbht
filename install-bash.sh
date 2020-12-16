@@ -16,6 +16,7 @@ sudo apt-get install -y python-dnspython
 sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
+sudo apt-get install -y whatweb
 
 echo -e "\e[1;31m installing bash_profile aliases from recon_profile \e[0m"
 git clone https://github.com/NetanMangal/recon_profile.git
