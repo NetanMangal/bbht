@@ -155,10 +155,6 @@ cat dns-Jhaddix.txt | head -n -14 >clean-jhaddix-dns.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
-echo -e "\e[1;31m installing recon_scripts \e[0m"
-git clone https://github.com/NetanMangal/recon-scripts.git
-echo -e "\e[1;31m done \e[0m"
-
 echo -e "\e[1;31m installing wpscan \e[0m"
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan*
