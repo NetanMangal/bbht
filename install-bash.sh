@@ -17,6 +17,7 @@ sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
 sudo apt-get install -y whatweb
+sudo snap install amass
 
 echo -e "\e[1;31m installing bash_profile aliases from recon_profile \e[0m"
 git clone https://github.com/NetanMangal/recon_profile.git
@@ -80,6 +81,7 @@ echo -e "\e[1;31m installing Sublist3r \e[0m"
 git clone https://github.com/aboul3la/Sublist3r.git
 cd Sublist3r*
 pip install -r requirements.txt
+ln -sfv /root/tools/Sublist3r/sublist3r.py /usr/bin/sublist3r
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
@@ -180,6 +182,7 @@ echo -e "\e[1;31m done \e[0m"
 #install smuggler.py
 echo -e "\e[1;31m installing smuggler.py \e[0m"
 git clone https://github.com/defparam/smuggler.git
+ln -sfv /root/tools/smuggler/smuggler.py /usr/bin/smuggler
 echo -e "\e[1;31m done \e[0m"
 
 #install relative-url-extractor
@@ -199,6 +202,11 @@ echo -e "\e[1;31m installing httprobe \e[0m"
 go get -u github.com/tomnomnom/httprobe
 echo -e "\e[1;31m done \e[0m"
 
+#install assetfinder
+echo -e "\e[1;31m installing assetfinder \e[0m"
+go get -u github.com/tomnomnom/assetfinder
+echo -e "\e[1;31m done \e[0m"
+
 #install unfurl
 echo -e "\e[1;31m installing unfurl \e[0m"
 go get -u github.com/tomnomnom/unfurl
@@ -207,6 +215,11 @@ echo -e "\e[1;31m done \e[0m"
 #install waybackurls
 echo -e "\e[1;31m installing waybackurls \e[0m"
 go get -u github.com/tomnomnom/waybackurls
+echo -e "\e[1;31m done \e[0m"
+
+#install subfinder
+echo -e "\e[1;31m installing subfinder \e[0m"
+go get -u github.com/projectdiscovery/subfinder/cmd/subfinder
 echo -e "\e[1;31m done \e[0m"
 
 #install ffuf
