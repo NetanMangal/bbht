@@ -135,6 +135,14 @@ pip install -r requirements.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+echo -e "\e[1;31m installing Nuclei \e[0m"
+git clone https://github.com/projectdiscovery/nuclei.git
+cd ~/tools/nuclei/v2/cmd/nuclei/
+go build
+mv nuclei /usr/local/bin/
+cd ~/tools/
+echo -e "\e[1;31m done \e[0m"
+
 echo -e "\e[1;31m installing httprobe \e[0m"
 go get -u github.com/tomnomnom/httprobe
 echo -e "\e[1;31m done \e[0m"
