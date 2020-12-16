@@ -128,6 +128,13 @@ pip install -r requirements.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+echo -e "\e[1;31m installing Corsy \e[0m"
+git clone https://github.com/s0md3v/Corsy.git
+cd ~/tools/Corsy
+pip install -r requirements.txt
+cd ~/tools/
+echo -e "\e[1;31m done \e[0m"
+
 echo -e "\e[1;31m installing httprobe \e[0m"
 go get -u github.com/tomnomnom/httprobe
 echo -e "\e[1;31m done \e[0m"
