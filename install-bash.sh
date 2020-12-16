@@ -198,6 +198,11 @@ echo -e "\e[1;31m installing venom26/recon \e[0m"
 git clone https://github.com/venom26/recon.git
 echo -e "\e[1;31m done \e[0m"
 
+#install smuggler.py
+echo -e "\e[1;31m installing smuggler.py \e[0m"
+git clone https://github.com/defparam/smuggler.git
+echo -e "\e[1;31m done \e[0m"
+
 #install wpscan
 echo -e "\e[1;31m installing wpscan \e[0m"
 git clone https://github.com/wpscanteam/wpscan.git
