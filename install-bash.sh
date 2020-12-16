@@ -62,6 +62,7 @@ echo -e "\e[1;31m Installing Chromium \e[0m"
 sudo snap install chromium
 echo -e "\e[1;31m done \e[0m"
 
+#install JSParser
 echo -e "\e[1;31m installing JSParser \e[0m"
 git clone https://github.com/nahamsec/JSParser.git
 cd JSParser*
@@ -69,6 +70,7 @@ sudo python setup.py install
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install Sublist3r
 echo -e "\e[1;31m installing Sublist3r \e[0m"
 git clone https://github.com/aboul3la/Sublist3r.git
 cd Sublist3r*
@@ -76,45 +78,54 @@ pip install -r requirements.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install teh_s3_bucketeers
 echo -e "\e[1;31m installing teh_s3_bucketeers \e[0m"
 git clone https://github.com/tomdev/teh_s3_bucketeers.git
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install dirsearch
 echo -e "\e[1;31m installing dirsearch \e[0m"
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install lazys3
 echo -e "\e[1;31m installing lazys3 \e[0m"
 git clone https://github.com/nahamsec/lazys3.git
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install virtual host discovery
 echo -e "\e[1;31m installing virtual host discovery \e[0m"
 git clone https://github.com/jobertabma/virtual-host-discovery.git
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install sqlmap
 echo -e "\e[1;31m installing sqlmap \e[0m"
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install knock.py
 echo -e "\e[1;31m installing knock.py \e[0m"
 git clone https://github.com/guelfoweb/knock.git
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install lazyrecon
 echo -e "\e[1;31m installing lazyrecon \e[0m"
 git clone https://github.com/nahamsec/lazyrecon.git
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install nmap
 echo -e "\e[1;31m installing nmap \e[0m"
 sudo apt-get install -y nmap
 echo -e "\e[1;31m done \e[0m"
 
+#install massdns
 echo -e "\e[1;31m installing massdns \e[0m"
 git clone https://github.com/blechschmidt/massdns.git
 cd ~/tools/massdns
@@ -122,6 +133,7 @@ make
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install asnlookup
 echo -e "\e[1;31m installing asnlookup \e[0m"
 git clone https://github.com/yassineaboukir/asnlookup.git
 cd ~/tools/asnlookup
@@ -129,6 +141,7 @@ pip install -r requirements.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install Corsy
 echo -e "\e[1;31m installing Corsy \e[0m"
 git clone https://github.com/s0md3v/Corsy.git
 cd ~/tools/Corsy
@@ -136,6 +149,7 @@ pip install -r requirements.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install Nuclei
 echo -e "\e[1;31m installing Nuclei \e[0m"
 git clone https://github.com/projectdiscovery/nuclei.git
 cd ~/tools/nuclei/v2/cmd/nuclei/
@@ -144,26 +158,32 @@ mv nuclei /usr/local/bin/
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install altdns
 echo -e "\e[1;31m installing altdns \e[0m"
 pip install py-altdns
 echo -e "\e[1;31m done \e[0m"
 
+#install httprobe
 echo -e "\e[1;31m installing httprobe \e[0m"
 go get -u github.com/tomnomnom/httprobe
 echo -e "\e[1;31m done \e[0m"
 
+#install unfurl
 echo -e "\e[1;31m installing unfurl \e[0m"
 go get -u github.com/tomnomnom/unfurl
 echo -e "\e[1;31m done \e[0m"
 
+#install waybackurls
 echo -e "\e[1;31m installing waybackurls \e[0m"
 go get github.com/tomnomnom/waybackurls
 echo -e "\e[1;31m done \e[0m"
 
+#install crtndstry
 echo -e "\e[1;31m installing crtndstry \e[0m"
 git clone https://github.com/nahamsec/crtndstry.git
 echo -e "\e[1;31m done \e[0m"
 
+#install Seclists
 echo -e "\e[1;31m downloading Seclists \e[0m"
 cd ~/tools/
 git clone --depth 1 https://github.com/danielmiessler/SecLists.git
@@ -173,10 +193,12 @@ cat dns-Jhaddix.txt | head -n -14 >clean-jhaddix-dns.txt
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install venom26/recon
 echo -e "\e[1;31m installing venom26/recon \e[0m"
 git clone https://github.com/venom26/recon.git
 echo -e "\e[1;31m done \e[0m"
 
+#install wpscan
 echo -e "\e[1;31m installing wpscan \e[0m"
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan*
