@@ -17,6 +17,7 @@ sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
 sudo apt-get install -y whatweb
+sudo apt-get install -y nikto
 sudo snap install amass
 
 echo -e "\e[1;31m installing bash_profile aliases from recon_profile \e[0m"
