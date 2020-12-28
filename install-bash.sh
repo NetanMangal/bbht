@@ -86,6 +86,14 @@ ln -sfv /root/tools/Sublist3r/sublist3r.py /usr/bin/sublist3r
 cd ~/tools/
 echo -e "\e[1;31m done \e[0m"
 
+#install Interlace
+echo -e "\e[1;31m installing Interlace \e[0m"
+git clone https://github.com/codingo/Interlace.git
+cd Interlace
+python3 setup.py install
+cd ~/tools/
+echo -e "\e[1;31m done \e[0m"
+
 #install teh_s3_bucketeers
 echo -e "\e[1;31m installing teh_s3_bucketeers \e[0m"
 git clone https://github.com/tomdev/teh_s3_bucketeers.git
