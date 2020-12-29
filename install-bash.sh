@@ -162,7 +162,7 @@ echo -e "\e[1;31m done \e[0m"
 
 #install Nuclei
 echo -e "\e[1;31m installing Nuclei \e[0m"
-GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
 nuclei -update-templates
 mv ~/nuclei-templates/ ~/tools/
 cd ~/tools/
