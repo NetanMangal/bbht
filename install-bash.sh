@@ -228,7 +228,7 @@ echo -e "\e[1;31m done \e[0m"
 
 #install subfinder
 echo -e "\e[1;31m installing subfinder \e[0m"
-GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
 echo -e "\e[1;31m done \e[0m"
 
 #install ffuf
