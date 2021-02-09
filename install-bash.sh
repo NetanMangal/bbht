@@ -4,6 +4,7 @@ sudo apt-get -y upgrade
 
 sudo apt-get install -y libcurl4-openssl-dev
 sudo apt-get install -y libssl-dev
+sudo apt-get install -y libpcap-dev
 sudo apt-get install -y jq
 sudo apt-get install -y ruby-full
 sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
@@ -229,6 +230,11 @@ echo -e "\e[1;31m done \e[0m"
 #install subfinder
 echo -e "\e[1;31m installing subfinder \e[0m"
 GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+echo -e "\e[1;31m done \e[0m"
+
+#install naabu
+echo -e "\e[1;31m installing naabu \e[0m"
+GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
 echo -e "\e[1;31m done \e[0m"
 
 #install ffuf
