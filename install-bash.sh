@@ -70,6 +70,16 @@ echo -e "\e[1;31m installing nmap \e[0m"
 sudo apt-get install -y nmap
 echo -e "\e[1;31m done \e[0m"
 
+#nmap scripts
+cd /usr/share/nmap/
+git clone https://github.com/scipag/vulscan scipag_vulscan
+ln -s `pwd`/scipag_vulscan /usr/share/nmap/scripts/vulscan
+
+#nmap scripts
+cd /usr/share/nmap/scripts/
+git clone https://github.com/vulnersCom/nmap-vulners.git
+cd ~/tools/
+
 #install JSParser
 echo -e "\e[1;31m installing JSParser \e[0m"
 git clone https://github.com/nahamsec/JSParser.git
